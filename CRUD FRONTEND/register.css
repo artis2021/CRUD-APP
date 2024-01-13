@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 244, 244);
+}
+
+#container{
+    padding: 50px;
+    background-color:white;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px ;
+    border: 2px solid white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-bottom: 1px solid green;
+}
+
+.input{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+form{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+}
+
+#output{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#success{
+    background-color: white;
+    color: green;
+    padding: 20px;
+}
+
+#failure{
+    background-color: white;
+    color: red;
+    padding: 20px;
+}

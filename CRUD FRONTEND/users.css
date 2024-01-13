@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 244, 244);
+    padding: 30px;
+}
+
+#container{
+    padding: 50px;
+    background-color:white;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px ;
+    border: 2px solid white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+#users{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#user{
+    background-color: rgb(73, 255, 146);
+    box-shadow: 4px 6px 8px rgb(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(227, 227, 227);
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 42, 42);
+    border-radius: 40px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(251, 120, 120);
+}
+
+button:active{
+    transform: scale(0.9);
+}
